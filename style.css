@@ -120,12 +120,19 @@ span{
     align-items: center;
 }
 .skill-icon {
+    display: flex;
+    align-items: center;
     transition: all 1s;
     color: #a4dcff;
-    font-size: 60px;
-    padding: 0.1rem 1rem;
+    font-size: 50px;
+    padding: 1rem 1rem;
     border-radius: 12px;
     background: #D2DBEE;
     background-color: #31456afb;
     box-shadow: 9.91px 9.91px 15px #283956fb, -9.91px -9.91px 15px #415780fb;
+    transition: 1;
 }
+.skill-icon:hover {
+    box-shadow: inset 9.91px 9.91px 15px #35486bfb, inset -9.91px -9.91px 15px #22324efb;
+}
+
