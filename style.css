@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #31456a;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #D2DBEE;
+}
+body::-webkit-scrollbar {
+    width: 0.3rem;
+    background-color: #D2DBEE;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #31456a;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.profile,.picture
+.name,
+.contact-infos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+h1{
+    color: #31456a;
+}
+span{
+    color: #31456a98;
+}
+.social{
+    margin-top: 1rem;
+    display: flex;
+    gap: 25px;
+    font-size: 1.6rem;
+    
+}
+.github a{
+    color: #21304d;
+}
+.insta a{
+    color: #b555be;
+}
+.linkedin a{
+    color: #2e7fb1;
+}
+.social a{
+    transition: all 0.55s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background: #D2DBEE;
+    border-radius: 12px;
+    box-shadow: 9.91px 9.91px 15px #BCC4D5, -9.91px -9.91px 15px #E8F2FF;
+}
+.social a:hover{
+    box-shadow: inset 9.91px 9.91px 15px #BFC7D9, inset -9.91px -9.91px 15px #E5EFFF;
+
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 250px;
+    height: 250px;
+    background: #D2DBEE;
+    border-radius: 100%;
+    box-shadow: 9.91px 9.91px 15px #BCC4D5, -9.91px -9.91px 15px #E8F2FF;
+    
+    transition: all 0.55s ease-in-out;
+}
+
+.picture img {
+    clip-path: circle();
+    object-fit: cover;
+    width: 222px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    border-radius: 65px 65px 0 0; 
+    padding: 3rem 2.5rem;
+    background: #D2DBEE;
+    background-color: #31456afb;
+    box-shadow: 9.91px 9.91px 15px #BCC4D5, -9.91px -9.91px 15px #E8F2FF;
+}
+
+.title{
+    font-weight: 400;
+    color: #a0aabf;
+}
+
+.skill-icons{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.skill-icon {
+    transition: all 1s;
+    color: #a4dcff;
+    font-size: 60px;
+    padding: 0.1rem 1rem;
+    border-radius: 12px;
+    background: #D2DBEE;
+    background-color: #31456afb;
+    box-shadow: 9.91px 9.91px 15px #283956fb, -9.91px -9.91px 15px #415780fb;
+}
