@@ -24,7 +24,8 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
     border-radius: 50px;
-    background: #31456a;
+    background: #ebf2ff;
+
 }
 
 header {
@@ -128,9 +129,13 @@ span {
     width: 100%;
     border-radius: 65px 65px 0 0;
     padding: 3rem 2.5rem;
-    background: #D2DBEE;
+    /* background: #D2DBEE;
     background-color: #31456afb;
     background: linear-gradient(145deg, #374B75, #212D47);
+    box-shadow: 9.91px 9.91px 15px #BCC4D5, -9.91px -9.91px 15px #E8F2FF; */
+    
+    /* border-radius: 12px; */
+    background: #D2DBEE;
     box-shadow: 9.91px 9.91px 15px #BCC4D5, -9.91px -9.91px 15px #E8F2FF;
     /* box-shadow: 26.43px 26.43px 20px #253350, -26.43px -26.43px 20px #33456C; */
 }
@@ -158,26 +163,29 @@ span {
     padding: 1rem 1rem;
     border-radius: 12px;
     background: #D2DBEE;
-    background-color: #31456afb;
     
-    background: linear-gradient(145deg, #374B75, #212D47);
-    box-shadow: 9.91px 9.91px 15px #283956fb, -9.91px -9.91px 15px #415780fb;
+    /* background: linear-gradient(145deg, #374B75, #212D47);
+    box-shadow: 9.91px 9.91px 15px #283956fb, -9.91px -9.91px 15px #415780fb; */
+    background: #D2DBEE;
+    box-shadow: 9.91px 9.91px 15px #BCC4D5, -9.91px -9.91px 15px #E8F2FF;
     transition: 1;
 }
 
 .skill-icon:hover {
     transition: all 1s;
-    box-shadow: inset 26.43px 26.43px 15px #2c3d5dfb, inset -26.43px -26.43px 15px #364b70fb;
+    /* box-shadow: inset 26.43px 26.43px 15px #2c3d5dfb, inset -26.43px -26.43px 15px #364b70fb; */
+    box-shadow: inset 9.91px 9.91px 15px #BFC7D9, inset -9.91px -9.91px 15px #E5EFFF;
+
 }
 
 .html i{
-    color: #c79554;
+    color: #dc8718;
 }
 .js i{
-    color: #c7bb54;
+    color: #bcad20;
 }
 .css i{
-    color: #57c3d2;
+    color: #3eb1c0;
 }
 .line{
     margin: 2rem 0;
@@ -194,7 +202,7 @@ span {
     margin: 1rem auto;
   }
   .timeline{
-    color: #c4cad6;
+    color: #313e4f;
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -202,8 +210,8 @@ span {
     content: '';
     position: absolute;
     width: 3px;
-    background: #374B75;
-    box-shadow: 26.43px 26.43px 20px #253350, -26.43px -26.43px 20px #33456C;
+    background: #e3ecfe;
+    box-shadow: 9.91px 9.91px 15px #BCC4D5, -9.91px -9.91px 15px #E8F2FF;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -213,7 +221,7 @@ span {
   
   /* Container around content */
   .container {
-    padding: 10px 40px;
+    padding: 10px 20px;
     position: relative;
     background-color: inherit;
     width: 50%;
@@ -226,10 +234,9 @@ span {
     width: 25px;
     height: 25px;
     right: -11px;
-    background: linear-gradient(145deg, #374B75, #212D47);
     border-radius: 100%;
-    box-shadow: 26.43px 26.43px 20px #253350, -26.43px -26.43px 20px #33456C;    border: 1px solid #4d6591fb;
-    top: 15px;
+    background: #D2DBEE;
+    box-shadow: 9.91px 9.91px 15px #BCC4D5, -9.91px -9.91px 15px #E8F2FF;    top: 15px;
     border-radius: 50%;
     z-index: 1;
   }
@@ -275,16 +282,15 @@ span {
   
   /* Fix the circle for containers on the right side */
   .right::after {
-    left: -16px;
+    left: -13px;
   }
   
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background: linear-gradient(145deg, #374B75, #212D47);
     border-radius: 16%;
-    box-shadow: 12.31px 12.31px 20px #253350, -12.31px -12.31px 20px #33456C;    position: relative;
-    border-radius: 6px;
+    background: #D2DBEE;
+    box-shadow: 9.91px 9.91px 15px #BCC4D5, -9.91px -9.91px 15px #E8F2FF;    border-radius: 6px;
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
