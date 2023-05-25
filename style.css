@@ -293,7 +293,38 @@ span {
     background: #D2DBEE;
     box-shadow: 9.91px 9.91px 15px #BCC4D5, -9.91px -9.91px 15px #E8F2FF;    border-radius: 6px;
   }
+
+  .pic{
+    width: 100%;
+    padding:  200px ;
+    border-radius: 10px;
+    background: #D2DBEE;
+    background-image: url(/JEaLiFe·.jpg);
+    background-size: cover;
+    background-position-y: 250px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: 9.91px 9.91px 15px #BCC4D5, -9.91px -9.91px 15px #E8F2FF;    top: 15px;
+
+  }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 600px) {
 
