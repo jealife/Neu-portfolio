@@ -302,6 +302,7 @@ span {
     background: #D2DBEE;
     background-image: url(/JEaLiFe·.jpg);
     background-size: cover;
+    background-position: center;
     background-position-y: 250px;
     background-attachment: fixed;
     background-repeat: no-repeat;
